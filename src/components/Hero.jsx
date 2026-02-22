@@ -5,11 +5,9 @@ export default function Hero({ units = {}, unitKey = "unidade1" }) {
 
   return (
     <section
-      className="relative bg-cover bg-no-repeat text-white"
+      className="relative bg-cover bg-no-repeat bg-center md:bg-right text-white min-h-[70vh] md:min-h-[600px]"
       style={{
         backgroundImage: "url(./gm3.5.png)",
-        backgroundPosition: "center right",
-        minHeight: 600,
       }}
     >
       <div
@@ -20,12 +18,12 @@ export default function Hero({ units = {}, unitKey = "unidade1" }) {
         }}
       />
 
-      <div className="relative max-w-4xl px-6 py-32 text-left md:ml-16 lg:ml-28">
-        <h1 className="text-5xl md:text-6xl font-extrabold leading-tight">
-          {selected.title || "BATE⚡RSHOP BATERIAS AUTOMOTIVAS"}
+      <div className="relative max-w-4xl px-6 py-20 md:py-32 text-left md:ml-16 lg:ml-28">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight break-words">
+          {selected.title || "BATER⚡SHOP BATERIAS AUTOMOTIVAS EM BRASÍLIA"}
         </h1>
 
-        <p className="mt-6 text-gray-300 max-w-2xl">
+        <p className="mt-4 text-gray-300 max-w-2xl text-base sm:text-lg">
           {selected.description ||
             "⚡ Atendimento em até 40 minutos | Entrega e Instalação no Local"}
         </p>
@@ -35,7 +33,7 @@ export default function Hero({ units = {}, unitKey = "unidade1" }) {
             href="https://wa.me/556130218830?text=Olá,%20gostaria%20de%20solicitar%20um%20atendimento"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-4 rounded-full font-semibold shadow-lg transition"
+            className="inline-block bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-4 rounded-full font-semibold shadow-lg transition w-full sm:w-auto text-center mx-auto"
           >
             Solicitar Atendimento Agora
           </a>
