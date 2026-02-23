@@ -5,7 +5,7 @@ export default function Hero({ units = {}, unitKey = "unidade1" }) {
 
   return (
     <section
-      className="relative bg-cover bg-no-repeat bg-center md:bg-right text-white min-h-[70vh] md:min-h-[600px]"
+      className="relative bg-cover bg-top md:bg-right bg-no-repeat text-white min-h-[60vh] md:min-h-[600px]"
       style={{
         backgroundImage: "url(./gm3.5.png)",
       }}
@@ -18,7 +18,7 @@ export default function Hero({ units = {}, unitKey = "unidade1" }) {
         }}
       />
 
-      <div className="relative max-w-4xl px-6 py-20 md:py-32 text-left md:ml-16 lg:ml-28">
+      <div className="relative max-w-4xl px-6 pt-16 pb-20 md:py-32 text-left md:ml-16 lg:ml-28">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight break-words">
           {selected.title || "BATER⚡SHOP BATERIAS AUTOMOTIVAS EM BRASÍLIA"}
         </h1>
