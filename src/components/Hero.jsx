@@ -5,7 +5,7 @@ export default function Hero({ units = {}, unitKey = "unidade1" }) {
 
   return (
     <section
-      className="relative bg-cover bg-top md:bg-right bg-no-repeat text-white min-h-[60vh] md:min-h-[600px]"
+      className="relative bg-cover bg-[center_right] md:bg-right bg-no-repeat text-white min-h-[65vh] md:min-h-[600px]"
       style={{
         backgroundImage: "url(./gm3.5.png)",
       }}
