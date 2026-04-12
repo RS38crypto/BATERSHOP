@@ -10,7 +10,7 @@ const testimonials = [
 
     {
         name: "Jason Rodrigues",
-        text: "Sempre que eu preciso de uma bateria Procuro Bater Shop, Sempre com bom atendimento e preço justo sou cliente desde 2019, E fica aqui meu sincero Agradecimento por sempre ser muito bem atendido em especial pelo Rangel, Obrigado mesmo, desejo sucesso pra vocês!!!",
+        text: "Sempre que eu preciso de uma bateria procuro Batershop, sempre com bom atendimento e preço justo sou cliente desde 2019, e fica aqui meu sincero agradecimento por sempre ser muito bem atendido em especial pelo Rangel, obrigado mesmo, desejo sucesso pra vocês!!!",
     },
 
     {
@@ -25,7 +25,7 @@ const testimonials = [
 
     {
         name: "Munize Gonçalves",
-        text: "Meu carro acabou a bateria no meio da rua, eu liguei pra Bater Shop falei com o proprietário e na mesma hora eles enviaram o colaborador deles para me socorrer. Gente vocês estão de parabéns a qualidade no atendimento, a rapidez e a presteza com que me atenderam superam qualquer um. Vocês são top",
+        text: "Meu carro acabou a bateria no meio da rua, eu liguei pra Batershop, falei com o proprietário e na mesma hora eles enviaram o colaborador deles para me socorrer. Gente vocês estão de parabéns a qualidade no atendimento, a rapidez e a presteza com que me atenderam superam qualquer um. Vocês são top",
     },
 
     {
