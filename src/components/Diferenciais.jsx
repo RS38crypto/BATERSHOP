@@ -6,7 +6,7 @@ function Diferenciais() {
                     Por que escolher nossa empresa?
                 </h2>
                 <p className="text-gray-500 text-lg">
-                    A Bater Shop nasceu para ser a solução definitiva em baterias no Distrito Federal. Com inovação, qualidade e agilidade, nosso grupo se dedica a entregar não apenas produtos, mas a confiança de um serviço superior, feito para manter sua vida em movimento. Aqui, cada bateria é o coração de um novo começo, a garantia de que, ao dar a partida, você terá toda a força para conquistar o seu dia. Escolha a Batershop e sinta a tranquilidade de ter um parceiro que entende de energia.
+                    A Batershop nasceu para ser a solução definitiva em baterias no Distrito Federal. Com inovação, qualidade e agilidade, nosso grupo se dedica a entregar não apenas produtos, mas a confiança de um serviço superior, feito para manter sua vida em movimento. Aqui, cada bateria é o coração de um novo começo, a garantia de que, ao dar a partida, você terá toda a força para conquistar o seu dia. Escolha a Batershop e sinta a tranquilidade de ter um parceiro que entende de energia.
                 </p>
             </div>
 
