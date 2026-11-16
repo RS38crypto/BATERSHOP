@@ -17,14 +17,6 @@ function CTA() {
                 >
                     UNIDADE TAGUATINGA
                 </a>
-                
-                <a
-                    href="https://wa.me/556132225966?text=Olá,%20preciso%20de%20uma%20bateria"
-                    target="_blank"
-                    className="bg-green-500 hover:bg-green-600 transition px-10 py-5 rounded-2xl text-lg font-bold shadow-xl"
-                >
-                    UNIDADE EPTG
-                </a>
             </div>
         </section>
     );

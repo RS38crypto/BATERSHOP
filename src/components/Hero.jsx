@@ -7,7 +7,7 @@ export default function Hero({ units = {}, unitKey = "unidade1" }) {
     <section
       className="relative bg-cover bg-[center_right] md:bg-right bg-no-repeat text-white min-h-[65vh] md:min-h-[600px]"
       style={{
-        backgroundImage: "url(./gm3.5.png)",
+        backgroundImage: `url('${import.meta.env.BASE_URL}NV.png')`,
       }}
     >
       <div
@@ -20,12 +20,12 @@ export default function Hero({ units = {}, unitKey = "unidade1" }) {
 
       <div className="relative max-w-4xl px-6 pt-16 pb-20 md:py-32 text-left md:ml-16 lg:ml-28">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight break-words">
-          {selected.title || "BATER⚡SHOP BATERIAS AUTOMOTIVAS EM BRASÍLIA"}
+          {selected.title || "BATERSHOP BATERIAS AUTOMOTIVAS EM BRASÍLIA"}
         </h1>
 
         <p className="mt-4 text-gray-300 max-w-2xl text-base sm:text-lg">
           {selected.description ||
-            "⚡ Atendimento em até 40 minutos | Entrega e Instalação no Local"}
+            "Atendimento em até 40 minutos | Entrega e Instalação no Local"}
         </p>
 
         <div className="mt-10">
